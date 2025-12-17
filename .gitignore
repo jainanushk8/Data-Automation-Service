@@ -1,4 +1,18 @@
+# Python
 __pycache__/
-*.DS_Store
-.env
+*.pyc
+*.pyo
+venv/
+*.egg-info/
+
+# IDEs
 .vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Don't ignore data folders (we want them in Git)
+# data/raw/
+# data/processed/
