@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 venv/
 *.egg-info/
+.env
 
 # IDEs
 .vscode/
@@ -13,6 +14,9 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Don't ignore data folders (we want them in Git)
-# data/raw/
-# data/processed/
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
